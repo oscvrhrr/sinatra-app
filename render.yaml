@@ -9,4 +9,4 @@ services:
       - key: SECRET_KEY_BASE
         generateValue: true
       - key: API_KEY
-        fromGroup: sinatra-keys
+  
