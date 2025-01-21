@@ -8,3 +8,5 @@ services:
     envVars: # this section sets some ENV variables needed by Render for deployment
       - key: SECRET_KEY_BASE
         generateValue: true
+      -key: API_KEY
+        value: {{ secrets.sinatra-keys.API_KEY }}
